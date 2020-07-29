@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.main__screen {
+  margin-bottom: 10px;
+}
+
+.screen {
+  border: 2px solid #184f8d;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen__header {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.status-basket {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.basket {
+  width: 140px;
+  height: 80px;
+  border-radius: 10px;
+  background-image: url("../images/basket-big.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media all and (max-width: 380px) {
+  .basket {
+    margin: 10px auto 0;
+  }
+}
+.basket__ticket-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: rgba(0, 255, 0, 0.75);
+  border-radius: 5px;
+  display: none;
+}
+
+.buy-btn {
+  margin: 10px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.basket-tickets {
+  margin-bottom: 10px;
+  display: none;
+}
+
+.basket-ticket {
+  min-height: 50px;
+  border: 2px solid #000000;
+  background-color: rgba(0, 255, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.basket-ticket__txt {
+  margin-bottom: 0;
+}
+.basket-ticket__remove {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 10px;
+}
+
+.seat-status {
+  flex-direction: column;
+}
+.seat-status__img {
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.seat-status__txt {
+  margin-bottom: 0;
+  line-height: 1.25rem;
+}
+
+.sold, .reserved, .free {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sold {
+  margin-bottom: 10px;
+}
+.sold__img {
+  background: url("../images/user.png") center center no-repeat, rgba(255, 0, 0, 0.75);
+}
+
+.reserved {
+  margin-bottom: 10px;
+}
+.reserved__img {
+  background: rgba(255, 255, 0, 0.75);
+}
+
+.free__img {
+  background: rgba(0, 255, 0, 0.75);
+}
+
+.sold-to-you {
+  position: relative;
+}
+.sold-to-you:before {
+  content: "✓";
+  position: absolute;
+  bottom: 100%;
+  left: calc(50% - 4px);
+  color: green;
+}
+
+.places {
+  border: 2px solid #242429;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.places__place {
+  width: 5%;
+  height: 50px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.places-row {
+  margin-bottom: 15px;
+  padding: 0;
+  background-color: #ededed;
+}
+.places-row__row {
+  align-items: center;
+}
+.places-row__number {
+  text-align: center;
+}
+.places-row__seats {
+  display: flex;
+}
+.places-row__seat {
+  margin: 0 1px;
+  width: 5%;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(0, 255, 0, 0.75);
+}
+.places-row__seat:hover {
+  cursor: pointer;
+}
+@media all and (max-width: 768px) {
+  .places-row__seat {
+    font-size: 0.75rem;
+  }
+}
+
+.seat:hover {
+  background: url("../images/basket.png") center center no-repeat, rgba(0, 255, 0, 0.75);
+}
+.seat_reserved {
+  background: rgba(255, 255, 0, 0.75);
+  position: relative;
+}
+.seat_sold {
+  background: url("../images/user.png") center center no-repeat, rgba(255, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=style.css.map */

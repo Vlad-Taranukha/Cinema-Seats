@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="main">
+    <div class="container">
+        <div class="screen main__screen row">
+            <h1 class="screen__header">Экран</h1>
+        </div>
+        <div class="row status-basket">
+            <div class="seat-status">
+                <div class="sold">
+                    <div class="seat-status__img sold__img"></div>
+                    <p class="seat-status__txt">место занято</p>
+                </div>
+                <div class="reserved">
+                    <div class="seat-status__img reserved__img"></div>
+                    <p class="seat-status__txt">место зарезервировано</p>
+                </div>
+                <div class="free">
+                    <div class="seat-status__img free__img"></div>
+                    <p class="seat-status__txt">место свободно</p>
+                </div>
+            </div>
+            <div class="basket">
+                <div class="basket__ticket-count"></div>
+            </div>
+        </div>
+        <div class="basket-tickets row ">
+            <button class="col-md-10 buy-btn">Купить</button>
+        </div>
+        <div class="places main__places row">
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">1</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">1</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">2</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">2</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">3</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">3</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">4</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">4</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">5</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">5</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">6</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">6</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">7</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">7</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">8</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">8</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">9</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">9</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">10</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">10</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">11</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">11</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">12</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">12</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">13</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">13</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">14</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">14</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">15</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">15</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">16</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">16</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">17</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">17</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">18</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">18</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">19</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">19</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">20</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">20</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">21</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">21</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">22</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">22</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">23</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">23</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">24</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">24</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">25</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">25</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">26</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">26</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">27</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">27</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">28</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">28</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">29</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">29</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">30</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">30</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">31</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">31</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">32</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">32</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">33</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">33</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">34</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">34</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">35</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">35</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">36</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">36</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">37</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">37</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">38</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">38</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">39</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">39</div>
+                </div>
+            </div>
+            <div class="places-row container no-padding">
+                <div class="row no-gutters places-row__row">
+                    <div class="places-row__number col-1 col-sm-1">40</div>
+                    <div class="places-row__seats col">
+                        <div class="seat places-row__seat"><p>1</p></div>
+                        <div class="seat places-row__seat "><p>2</p></div>
+                        <div class="seat places-row__seat"><p>3</p></div>
+                        <div class="seat places-row__seat"><p>4</p></div>
+                        <div class="seat places-row__seat"><p>5</p></div>
+                        <div class="seat places-row__seat"><p>6</p></div>
+                        <div class="seat places-row__seat"><p>7</p></div>
+                        <div class="seat places-row__seat"><p>8</p></div>
+                        <div class="seat places-row__seat"><p>9</p></div>
+                        <div class="seat places-row__seat"><p>10</p></div>
+                        <div class="seat places-row__seat"><p>11</p></div>
+                        <div class="seat places-row__seat"><p>12</p></div>
+                        <div class="seat places-row__seat"><p>13</p></div>
+                        <div class="seat places-row__seat"><p>14</p></div>
+                        <div class="seat places-row__seat"><p>15</p></div>
+                        <div class="seat places-row__seat"><p>16</p></div>
+                        <div class="seat places-row__seat"><p>17</p></div>
+                        <div class="seat places-row__seat"><p>18</p></div>
+                        <div class="seat places-row__seat"><p>19</p></div>
+                        <div class="seat places-row__seat"><p>20</p></div>
+                    </div>
+                    <div class="places-row__number d-none d-sm-block col-sm-1">40</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
